@@ -4,10 +4,6 @@ This is a simple tool used for helping manage small one-time events. For example
 
 ## Usage
 
-> [!WARNING]
-> The Switch Manager will not work unless you [autoload](https://docs.godotengine.org/en/stable/tutorials/scripting/singletons_autoload.html) the `state_machine.tscn`!<br/>
-> As it will only work if it is a `Singleton`.
-
 If you need to change/add/remove switches outside of runtime, you can change them in `state_machine.tscn`'s scene.<br/>
 You can also change the **Save Path** there.
 

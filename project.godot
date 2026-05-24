@@ -13,6 +13,14 @@ config_version=5
 config/name="Switch-Manager"
 config/features=PackedStringArray("4.6", "GL Compatibility")
 
+[autoload]
+
+SwitchManager="*uid://8bjgw40uftjv"
+
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/switch_manager/plugin.cfg")
+
 [physics]
 
 3d/physics_engine="Jolt Physics"
